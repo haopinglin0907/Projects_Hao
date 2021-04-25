@@ -1,2 +1,6 @@
-123123213213
-12321321321
+State files # git add "file"
+
+Push changes # git push
+Add commit content # git commit -m "What did you do?"
+
+One step roll back #git reset --hard HEAD^ 
