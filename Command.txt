@@ -1,6 +1,16 @@
-State files # git add "file"
+# State files 
+git add "file_name"
 
-Push changes # git push
-Add commit content # git commit -m "What did you do?"
+# Rename file
+git mv file <directory/new name (same directory)>
 
-One step roll back #git reset --hard HEAD^ 
+# Add commit content 
+git commit -m "What did you do?"
+
+
+# Push changes 
+git push
+
+
+# One step roll back 
+git reset --hard HEAD^ 
