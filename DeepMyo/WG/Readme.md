@@ -2,7 +2,7 @@
 
 DeepMyo is a project of building deep learning classifier to identify different hand/wrist gestures.
 
-Dataset: The dataset is separated in two subdatasets (pre-training and evaluation dataset). The folder training0 (for the pre-training dataset) and the folders retraining and test0 (for the evaluation dataset) contain the raw myo armband signal in files named subject_num_WG_Trail_i where WG means with gravity and i goes from 0 to 7. 
+Dataset: The dataset is separated in two subdatasets (pre-training and evaluation dataset). The folder training0 (for the pre-training dataset) and the folders retraining and test0 (for the evaluation dataset) contain the raw myo armband signal in files named subject_num_WG_Trial_i where WG means with gravity and i goes from 0 to 7. 
 
 Each file contain a the sEMG signal for a specific gestures. In order: 0 = Fist, 1 = Fist with wrist ext., 2 = Open palm, 3 = Open palm with wrist ext., 4 = Opposition, 5 = Lateral pinch, 6 = Cylinder grip, 7 = Relax. 
 
