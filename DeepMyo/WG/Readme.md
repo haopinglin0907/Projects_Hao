@@ -12,15 +12,18 @@ Note that PretrainingData and EvaluationData were collected in different session
 
 
 The aim of the project is to leaverage Convoulutional Neural Network (CNN) to help improve the accuracy of classifying different hand/wrist gestures. The CNN model is first trained on the PretrainData and tested on the EvaluationData (with-/without retraining). 
-The data collection process from study in 2019 "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning" https://ieeexplore.ieee.org/document/8630679
+The data collection process is referenced from study in 2019 "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning" https://ieeexplore.ieee.org/document/8630679
 
-"Currently, the data contains only the same subject, both in PretrainData and EvaluationData. More subjects will be added if possible and the PretrainData and EvaluationData will not contain the same subject"
 
-## Installation
+## Side note
+Currently, the data contains only the same subject, both in PretrainData and EvaluationData. More subjects will be added if possible and the PretrainData and EvaluationData will not contain the same subject
+
+## Installation (Anaconda)
 
 Create an environment with packages installation (Use requirements.txt)
 
-Anaconda:
+After installing the Anaconda, open the Anaconda Prompt and enter the following commands:
+
 conda create -name "env_name" python = 3.7 
 
 conda activate "env_name"
