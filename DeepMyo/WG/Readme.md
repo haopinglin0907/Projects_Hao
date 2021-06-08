@@ -10,6 +10,12 @@ Eight gestures forming a cycle, and 4 cycles forming a round (PretrainData has 1
 
 Note that PretrainingData and EvaluationData were collected in different sessions (Myo armband has been removed in between, whereas two rounds in EvaluationData were in the same session).
 
+
+The aim of the project is to leaverage Convoulutional Neural Network (CNN) to help improve the accuracy of classifying different hand/wrist gestures. The CNN model is first trained on the PretrainData and tested on the EvaluationData (with-/without retraining). 
+The data collection process from study in 2019 "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning" https://ieeexplore.ieee.org/document/8630679
+
+"Currently, the data contains only the same subject, both in PretrainData and EvaluationData. More subjects will be added if possible and the PretrainData and EvaluationData will not contain the same subject"
+
 ## Installation
 
 Create an environment with packages installation (Use requirements.txt)
