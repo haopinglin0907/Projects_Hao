@@ -30,10 +30,10 @@ conda install --file requirements.txt
 # Read pickle dataframe, which contains EMG data of all subjects sorted by gestures. Each subjects have at least 2 sessions and 3 trials in one session. 
 df = read_file()
 
-# Preprocess data
-X_train, y_train, _ = preprocess(df_subject_train, window_size = 52, nonoverlap_size = 5) = read_file(mode = 1 , window_size = 52, nonoverlap_size = 5)
-X_val, y_val, _ = preprocess(df_subject_val, window_size = 52, nonoverlap_size = 5) = read_file(mode = 1 , window_size = 52, nonoverlap_size = 5)
-X_test, y_test, _ = preprocess(df_subject_test, window_size = 52, nonoverlap_size = 5) = read_file(mode = 1 , window_size = 52, nonoverlap_size = 5)
+# Preprocess data and filter with a butterworth highpass filter
+X_train, y_train, _ = preprocess(df_subject_train, window_size = 52, nonoverlap_size = 5, highpass = True)
+X_val, y_val, _ = preprocess(df_subject_val, window_size = 52, nonoverlap_size = 5, highpass = True)
+X_test, y_test, _ = preprocess(df_subject_test, window_size = 52, nonoverlap_size = 5, highpass = True)
 
 
 ```
