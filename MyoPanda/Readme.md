@@ -12,9 +12,6 @@ We'll test the gesture classification accuracy both on patients / healthy partic
 The data preprocessing is referenced from study in 2019 "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning" https://ieeexplore.ieee.org/document/8630679
 
 
-## Side note
-Currently, the data contains only the same subject, both in PretrainData and EvaluationData. More subjects will be added if possible and the PretrainData and EvaluationData will not contain the same subject
-
 ## Installation (Anaconda)
 
 Create an environment with packages installation (Use requirements.txt)
